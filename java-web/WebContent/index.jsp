@@ -1,3 +1,5 @@
+ESTUDIANTE: KELVIN PAUL PUCHO ZEVALLOS
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 	<%--Esto es una directiva para utilizar la clase Date --%>
@@ -18,8 +20,8 @@
 	<% out.println(); %>
 	<%out.print("Hola mundo desde JSP"); %>
 		<br>
-	<%--Esto es una expresión en JSP --%>
-	<%="Esto es una expresión" %>
+	<%--Esto es una expresiÃ³n en JSP --%>
+	<%="Esto es una expresiÃ³n" %>
 	<br>
 	<%--Se declara una directiva para utilizar la clase Date <%@ page import="java.util.Date"  %> --%>
 	<%
@@ -31,7 +33,7 @@
 	<%! public static int contador=7; %>
 	<%  out.println("Valor de la variable contador: "+contador);%>
 	<br>
-	<%--Navegador y Versión del Sistema Operativo --%>
+	<%--Navegador y VersiÃ³n del Sistema Operativo --%>
 	<% out.print(request.getHeader("USER-AGENT")); %>
 	
 </body>
